@@ -1,0 +1,92 @@
+/* Body */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background: #82C0CC;
+    margin: 0;
+    color: #16697A;
+}
+
+/* Typography */
+
+#name {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.mail {
+    text-decoration: none;
+    color: #16697A;
+}
+
+.mail:hover {
+    color: #05191d
+}
+
+/* Sidebar (including navbox, nav-btns, sidebar-footer) */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: stretch;
+    width: 15%;
+    padding: 3em;
+    border-right: #16697A 0.2em solid;
+}
+
+.navbox {
+    padding: 2em 0 2em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-btns {
+    margin: 0.5em 0 0.5em 0;
+    text-decoration: none;
+    color: #16697A;
+    /* background: gray; */
+}
+
+.nav-btns:hover {
+    color: #82C0CC;
+    background: #16697A;
+}
+
+.active-btn {
+    border-bottom: 0.2em #16697A solid;
+    padding: 0.1em 0;
+}
+
+.links {
+    padding: 2em 1em;
+}
+
+.link-deco {
+    padding: 0 1.5em;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 0.5em 0 0.5em 0;
+    padding: 0.5em;
+}
+
+/* Project Showcase */
+
+.main-body {
+    width: 85%;
+    padding: 2em;
+}
+
+.projects {
+
+}
+
+.project-images {
+    padding: 1em;
+}

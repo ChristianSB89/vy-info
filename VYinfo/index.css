@@ -1,0 +1,82 @@
+body {
+    background-color: #470899;
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: 1920px 1080px;
+}
+
+.nolist {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 50px;
+    background: #dd260a;
+    padding: 0px 20px 10px 20px;
+    margin: 50px 0px auto 0px;
+}
+
+.enlist {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fccf03;
+    font-size: 50px;
+    background: #dd260a;
+    padding: 0px 20px 10px 20px;
+    margin: auto 0px;
+}
+
+.listno {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.listen {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fccf03;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.lp-pom-text ul, li {
+list-style-type: square !important;
+}
+
+body {
+    width: 1500px;
+    margin: 0px auto;
+}
+
+.container {
+    background: #470899;
+    padding: 50px;
+    
+}
+
+.shadow {
+    box-shadow: 10px 10px 50px black;
+}
+
+.background {
+    display: flex;
+}
+
+.left {
+    margin-right:50px;
+}
+
+.right {
+    margin-left: 50px;
+}
+
+footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0px;
+    width: 1500px;
+    margin: 0px auto;
+    height: 40px;
+    color: #fff;
+    background: #470899;
+}
